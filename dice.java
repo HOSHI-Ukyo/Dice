@@ -8,5 +8,8 @@ class dice{
     int num2 = r.nextInt(6)+1;
     System.out.println("Die 1: "+num1);
     System.out.println("Die 2: "+num2);
+    System.out.println("Total value: "+(num1+num2));
+    if(num1+num2>7){System.out.println("You won!");}
+    else{ System.out.println("You lost!");}
     }
 }
